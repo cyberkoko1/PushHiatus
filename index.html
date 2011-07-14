@@ -1,65 +1,26 @@
 <!DOCTYPE html>
-<html>
-<head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">	
-    <title>Carousel</title>
-	<link rel="stylesheet" href="touch/resources/css/sencha-touch.css" type="text/css" media="screen" title="no title" charset="utf-8">
-	<link rel="stylesheet" href="assets/index.css" type="text/css" media="screen" title="no title" charset="utf-8">
-	<script src="touch/sencha-touch-debug.js" type="text/javascript" charset="utf-8"></script>
-    <script type="text/javascript" src="app.js"></script>
-</head>
-<body>
-	<div id="container" class="x-hidden-display">
-	    <div id="weather_pic">
-		<div id="head">
-			<div class="column1">
-				<div class="city">{city}</div>
-				<div id="tempRange">
-					<div class="current"><span>51</span>&deg;</div>
-					<div class="high">
-						<span class="highLabel">H&nbsp;</span>
-						<span class="highValue">59&nbsp;</span>&deg;
-					</div>
-					<div class="low">
-						<span class="lowLabel">L&nbsp;</span>
-						<span class="lowValue">54&nbsp;</span>&deg;
-					</div>
-				</div>
-			</div>
-			<div class="sunny">
-			</div>
-		</div>
-	
-		<div id="content">
-		</div>
-	
-		<div id="footer">
-			<div class="day">
-				<div class="small_sunny"></div>
-				<div>
-					<span>H&nbsp;</span><span class="footer_degree">59</span>&deg;&nbsp;&nbsp;/&nbsp;&nbsp;
-					<span>L&nbsp;</span><span class="footer_degree">54</span>&deg;
-				</div>
-				<div>THURSDAY</div>
-			</div>
-			<div class="day">
-				<div class="small_sunny"></div>
-				<div>
-					<span>H&nbsp;</span><span class="footer_degree">59</span>&deg;&nbsp;&nbsp;/&nbsp;&nbsp;
-					<span>L&nbsp;</span><span class="footer_degree">54</span>&deg;
-				</div>
-				<div>FRIDAY</div>
-			</div>
-			<div class="day">
-				<div class="small_sunny"></div>
-				<div class="degree">
-					<span>H&nbsp;</span><span class="footer_degree">59</span>&deg;&nbsp;&nbsp;/&nbsp;&nbsp;
-					<span>L&nbsp;</span><span class="footer_degree">54</span>&deg;
-				</div>
-				<div>SATURDAY</div>
-			</div>
-		</div>
-	    </div>
-	</div>
-</body>
+
+<html lang="en">
+	<head>
+		<title>Push Hiatus</title>
+		<link rel="shortcut icon" href="images/favicon.ico" >
+		<link href="css/pushhiatus_layout.css" rel="stylesheet" type="text/css" />
+	</head>
+	<body>
+		<h1>PushHiatus</h1>
+		<form>
+			<label for="WhyTheHiatus">Why are you taking a break?</label></br>
+			<select>
+				<option>Vacation</option>
+				<option>Google+</option>
+				<option>FB Break</option>
+				<option>Other</option>
+			</select></br>
+			<label for="WhenComingBack">When are you coming back?</label></br>
+			<input type="text" name="date" /></br>
+			<label for="Message">Message</label></br>
+			<textarea></textarea></br>
+			<input type="submit" name="mysubmit" value="Go on a Hiatus!" />
+		</form>
+	</body>
 </html>
